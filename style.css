@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    align-items: flex-start;
+    background-color: cadetblue;
+}
+header{
+    background-image: url("glaivefullfull.png");
+    height: 300px;
+}
+.light{
+    color:#7d7d7d;
+    background-color: #EBEBEB;
+}
+#total-content{
+    margin: 17px auto 15px;
+    width: 1050px;
+}
