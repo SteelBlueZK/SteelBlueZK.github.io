@@ -20,6 +20,13 @@ article{
     margin-top: 19px;
     font-size: 18px;
 }
+.penned{
+    padding: 8px 8px 3px;
+    background-color: darkgreen;
+    border: darkgoldenrod;
+    border-width: 6px;
+    border-style: ridge;
+}
 p{
     margin: 8px 30px 8px;
 }
