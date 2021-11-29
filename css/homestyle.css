@@ -5,13 +5,18 @@ body{
     background-color: cadetblue;
 }
 header{
-    background-image: url("glaivefullfull.png");
+    background-image: url("../images/glaivefullfull.png");
     background-color: darkslategray;
     height: 300px;
     padding-top: 72.5px;
     font-size: 155px;
     color: crimson;
     text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
 }
 article{
     justify-content: space-between;
@@ -39,10 +44,4 @@ p{
     margin: 17px auto 15px;
     max-width: 1200px;
     min-width: 600px;
-}
-#skater-boy{
-    float: left;
-    background-image: url("epicSkateboard.png");
-    height: auto;
-    width: auto;
 }

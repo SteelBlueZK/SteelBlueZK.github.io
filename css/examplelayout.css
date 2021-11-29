@@ -1,0 +1,42 @@
+div{
+    padding: 8px;
+    margin: 10px 0px 10px;
+}
+body {
+    align-items: center;
+    text-align: center;
+    width:680px;
+    position:relative;
+    margin:auto;
+}
+footer{
+    padding: 8px 8px 30px;
+
+}
+article{
+    margin:10px 0px 8px;
+}
+.cleardiv{
+    padding: 5px;
+    margin: 5px;
+}
+.light-theme{
+    color:#7d7d7d;
+    background-color: #EBEBEB;
+}
+.dark-theme{
+    color:#919191;
+    background-color: #303030;
+}
+#articles{
+    width: 400px;
+}
+#sidebar{
+    width:200px
+}
+#MainContent{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content:space-between;
+}
