@@ -6,6 +6,7 @@ body{
 }
 header{
     background-image: url("glaivefullfull.png");
+    background-color: darkslategray;
     height: 300px;
     padding-top: 72.5px;
     font-size: 155px;
@@ -21,8 +22,8 @@ article{
     font-size: 18px;
 }
 .penned{
-    padding: 8px 8px 3px;
-    background-color: darkgreen;
+    padding: 0px 0px -5px;
+    background-color: black;
     border: darkgoldenrod;
     border-width: 6px;
     border-style: ridge;
@@ -36,7 +37,8 @@ p{
 }
 #total-content{
     margin: 17px auto 15px;
-    width: 1050px;
+    max-width: 1200px;
+    min-width: 600px;
 }
 #skater-boy{
     float: left;
