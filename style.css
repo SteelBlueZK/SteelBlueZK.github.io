@@ -1,11 +1,27 @@
 body{
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
     background-color: cadetblue;
 }
 header{
     background-image: url("glaivefullfull.png");
     height: 300px;
+    padding-top: 72.5px;
+    font-size: 155px;
+    color: crimson;
+    text-align: center;
+}
+article{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 19px;
+    font-size: 18px;
+}
+p{
+    margin: 8px 30px 8px;
 }
 .light{
     color:#7d7d7d;
@@ -14,4 +30,10 @@ header{
 #total-content{
     margin: 17px auto 15px;
     width: 1050px;
+}
+#skater-boy{
+    float: left;
+    background-image: url("epicSkateboard.png");
+    height: auto;
+    width: auto;
 }
