@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background-color: darkgrey;
+    height: 700px;
+    width : 400px;
+}
+#mainbox{
+    padding: 8px;
+    background-color: antiquewhite;
+    width: 600px;
+    height: 6000px;
+    max-height: inherit;
+    overflow: scroll;
+}
+.expandable{
+    max-height: inherit;
+}
+.BattleList{
+    margin: 5px 10px 5px 10px;
+}
+#redsection{
+    background-color: red;
+}
+#bluesection{
+    background-color: blue;
+}
+#greensection{
+    background-color: green;
+}

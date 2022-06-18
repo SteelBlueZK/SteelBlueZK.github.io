@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Battle list proposal</title>
+    <meta name="description" content="New multiplayer battles layout">
+    <meta name="author" content="Steel_Blue">
+    <link rel="stylesheet" href="css/Colapseable features.css">
+</head>
+
+<body>
+    
+    <div id="mainbox">Open Battles  ||  Host Battle  ||  Battle Filters
+        <div id="redsection">Autohosts
+            <div class="BattleList" id="rs1"></div>
+            <button onclick="addBattle('rs1')">New Autohost</button>
+        </div>
+        <div id="bluesection">public hosts
+            <div class="BattleList" id="bs1"></div>
+            <button onclick="addBattle('bs1')">New Public</button>
+        </div>
+        <div id="greensection">passworded hosts
+            <div class="BattleList" id="gs1"></div>
+            <button onclick="addBattle('gs1')">New Private</button>
+        </div>
+    </div>
+    
+    <script>
+        function toggleDisplay(element) {
+            element;
+        }
+        function addBattle(input) {
+            var elem = document.createElement("img");
+            elem.setAttribute("src", "images/Battle.png");
+            document.getElementById(input).appendChild(elem);
+        }
+    </script>
+</body>
+
+</html>
